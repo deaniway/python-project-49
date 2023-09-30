@@ -17,7 +17,7 @@ def game_logic():
 
 def check_nums(nums):
     con = 0
-    for i in range(2, nums // 2+1):
+    for i in range (2, nums // 2 + 1):
         if nums % i == 0:
             con += 1
     if con <= 0:
