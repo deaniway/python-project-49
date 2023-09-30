@@ -12,10 +12,9 @@ def game_logic():
     for i in range(first_num, last_num, step):
         nums.append(i)
 
-    sicret_num = '..'
     random_num = choice(nums)
     index = nums.index(random_num)
-    nums[index] = sicret_num
+    nums[index] = '..'
     win_txt = str(random_num)
-
+    nums = " ".join(map(str, nums))
     return win_txt, nums
