@@ -1,9 +1,11 @@
 from random import randrange, choice
 
 
+RULES = 'What is the result of the expression?'
+
+
 def game_logic():
 
-    print('What is the result of the expression?')
     first_num = randrange(10)
     last_num = randrange(10)
     action = choice(list({'+', '-', '*'}))

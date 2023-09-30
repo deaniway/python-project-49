@@ -1,8 +1,10 @@
 from random import randrange
 
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def game_logic():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+
     nums = randrange(50)
     check = check_nums(nums)
     if check is True:

@@ -4,6 +4,7 @@ from brain_games.cli import welcome_user
 def engie(game):
 
     user = welcome_user()
+    print(game.RULES)
     CON = 0
 
     while CON < 3:
