@@ -1,7 +1,7 @@
-
-.venv/
+.venv
+.DS_Store
+brain_games/__pycache__
+brain_games/scripts/__pycache__
 dist/
-__pycache__
-coverage.xml
-.pytest_cashe
-.coverage
+brain_games/games/__pycache__
+.idea
