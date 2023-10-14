@@ -1,14 +1,11 @@
 from random import randrange
-from brain_games.game_constants import RULES
-
-RULES = RULES["prime"]
 
 
 def game_logic():
 
     num = randrange(2, 50)
     win_txt = 'yes' if is_prime(num) else 'no'
-    return win_txt, num
+    return num, win_txt
 
 
 def is_prime(nums):

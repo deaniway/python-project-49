@@ -1,8 +1,4 @@
 from random import randrange
-from brain_games.game_constants import RULES
-
-
-RULES = RULES["even"]
 
 
 def generate_random_number():
@@ -15,4 +11,4 @@ def is_even(num):
 
 def game_logic():
     nums = generate_random_number()
-    return 'yes' if is_even(nums) else 'no', nums
+    return nums, 'yes' if is_even(nums) else 'no'

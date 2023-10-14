@@ -1,7 +1,4 @@
 from random import randrange
-from brain_games.game_constants import RULES
-
-RULES = RULES["progression"]
 
 
 def game_logic():
@@ -16,4 +13,4 @@ def game_logic():
     progression[random_index] = '..'
 
     nums = " ".join(map(str, progression))
-    return win_txt, nums
+    return nums, win_txt

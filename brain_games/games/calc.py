@@ -1,7 +1,4 @@
 from random import randint, choice
-from brain_games.game_constants import RULES
-
-RULES = RULES["calc"]
 
 
 def game_logic():
@@ -15,4 +12,4 @@ def game_logic():
     expression = f'{first_num} {action} {last_num}'
     win_txt = str(operators[action])
 
-    return win_txt, expression
+    return expression, win_txt

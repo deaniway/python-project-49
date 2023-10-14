@@ -1,21 +1,24 @@
 from brain_games.cli import welcome_user
 
 
-def engie(game, max_attempts=3):
+def run_game(get_question_and_answer, instruction):
     user = welcome_user()
-    print(game.RULES)
 
-    for _ in range(max_attempts):
-        win_answer, numbers = game.game_logic()
-        print(f'Question: {numbers}')
-        u_answer = str(input('Your answer: '))
+    print(instruction)
 
-        if u_answer == win_answer:
+    con = 0
+    for _ in range(3):
+        question, correct_answer = get_question_and_answer()
+        print(f'Question: {question}')
+        user_answer = input('Your answer: ')
+
+        if user_answer == correct_answer:
             print('Correct!')
+            con += 1
         else:
-            print(f'{u_answer} is wrong answer ;(.'
-                  f'Correct answer was {win_answer}')
+            print(f"'{user_answer}' is wrong answer ;(."
+                  f" Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {user}!")
             break
-    else:
+    if con == 3:
         print(f'Congratulations, {user}!')
