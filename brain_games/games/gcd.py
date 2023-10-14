@@ -1,6 +1,6 @@
 from math import gcd
 from random import randrange
-from game_constants import RULES
+from brain_games.game_constants import RULES
 
 RULES = RULES["gcd"]
 

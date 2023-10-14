@@ -1,5 +1,5 @@
 from random import randint, choice
-from game_constants import RULES
+from brain_games.game_constants import RULES
 
 RULES = RULES["calc"]
 

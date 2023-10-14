@@ -1,8 +1,9 @@
 from random import randrange
-from game_constants import RULES
+from brain_games.game_constants import RULES
 
 
 RULES = RULES["even"]
+
 
 def generate_random_number():
     return randrange(50)
