@@ -1,24 +1,17 @@
 from random import randrange
+from game_constants import RULES
 
-RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+RULES = RULES["even"]
+
+def generate_random_number():
+    return randrange(50)
+
+
+def is_even(num):
+    return num % 2 == 0
 
 
 def game_logic():
-
-    nums = randrange(50)
-    check = check_nums(nums)
-    if check is True:
-        win_txt = 'yes'
-        return win_txt, nums
-    else:
-        win_txt = 'no'
-        return win_txt, nums
-
-
-def check_nums(nums):
-    if nums % 2 == 0:
-        return True
-    else:
-        return False
-
-# из ревью - проверку вынести отдельно
+    nums = generate_random_number()
+    return 'yes' if is_even(nums) else 'no', nums

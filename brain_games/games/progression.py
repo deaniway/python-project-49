@@ -1,6 +1,7 @@
-from random import randrange, choice
+from random import randrange
+from game_constants import RULES
 
-RULES = 'What number is missing in the progression?'
+RULES = RULES["progression"]
 
 
 def game_logic():
@@ -8,13 +9,11 @@ def game_logic():
     last_num = randrange(40, 50)
     step = randrange(3, 6)
 
-    nums = []
-    for i in range(first_num, last_num, step):
-        nums.append(i)
+    progression = list(range(first_num, last_num, step))
 
-    random_num = choice(nums)
-    index = nums.index(random_num)
-    nums[index] = '..'
-    win_txt = str(random_num)
-    nums = " ".join(map(str, nums))
+    random_index = randrange(len(progression))
+    win_txt = str(progression[random_index])
+    progression[random_index] = '..'
+
+    nums = " ".join(map(str, progression))
     return win_txt, nums

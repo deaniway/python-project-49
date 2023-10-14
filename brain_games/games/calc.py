@@ -1,29 +1,17 @@
-from random import randrange, choice
+from random import randint, choice
+from game_constants import RULES
 
-
-RULES = 'What is the result of the expression?'
+RULES = RULES["calc"]
 
 
 def game_logic():
+    first_num = randint(0, 9)
+    last_num = randint(0, 9)
+    operators = {'+': first_num + last_num, '-': first_num - last_num, '*': first_num * last_num}
 
-    first_num = randrange(10)
-    last_num = randrange(10)
-    action = choice(list({'+', '-', '*'}))
+    action = choice(list(operators.keys()))
+    expression = f'{first_num} {action} {last_num}'
+    win_txt = str(operators[action])
 
-    if action == '+':
+    return win_txt, expression
 
-        nums = f'{first_num} + {last_num}'
-        win_txt = str(first_num + last_num)
-        return win_txt, nums
-
-    if action == '-':
-
-        nums = f'{first_num} - {last_num}'
-        win_txt = str(first_num - last_num)
-        return win_txt, nums
-
-    if action == '*':
-
-        nums = f'{first_num} * {last_num}'
-        win_txt = str(first_num * last_num)
-        return win_txt, nums

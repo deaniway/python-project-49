@@ -1,21 +1,17 @@
 from random import randrange
+from game_constants import RULES
 
-RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES = RULES["prime"]
 
 
 def game_logic():
 
-    nums = randrange(2, 50)
-    check = check_nums(nums)
-    if check is True:
-        win_txt = 'yes'
-        return win_txt, nums
-    else:
-        win_txt = 'no'
-        return win_txt, nums
+    num = randrange(2, 50)
+    win_txt = 'yes' if is_prime(num) else 'no'
+    return win_txt, num
 
 
-def check_nums(nums):
+def is_prime(nums):
     con = 0
     for i in range(2, nums // 2 + 1):
         if nums % i == 0:
