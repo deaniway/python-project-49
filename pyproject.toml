@@ -2,11 +2,11 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = ""
-authors = ["Denis <ad.way@mail.ri>"]
+authors = ["Denis <ad.way@mail.ru>"]
 readme = "README.md"
 packages = [{ include = "brain_games" },]
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 prompt = "^0.4.1"
 
 
