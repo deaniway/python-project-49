@@ -13,7 +13,6 @@ def generate_number_progression():
 
 
 def math_expression_and_result():
-    
     first_num, last_num, step = generate_number_progression()
 
     progression = list(range(first_num, last_num, step))

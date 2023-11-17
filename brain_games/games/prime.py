@@ -1,4 +1,3 @@
-import random
 from random import randrange
 from brain_games.engine import run_game
 from brain_games.game_constants import GAME_INSTRUCTIONS
