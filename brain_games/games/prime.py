@@ -1,11 +1,14 @@
+import random
 from random import randrange
+from brain_games.engine import run_game
+from brain_games.game_constants import GAME_INSTRUCTIONS
 
 
-def game_logic():
+def math_expression_and_result():
 
     num = randrange(2, 50)
-    win_txt = 'yes' if is_prime(num) else 'no'
-    return num, win_txt
+    correct_answer = 'yes' if is_prime(num) else 'no'
+    return num, correct_answer
 
 
 def is_prime(nums):
@@ -17,3 +20,7 @@ def is_prime(nums):
         return True
     else:
         return False
+
+
+def run_prime_game():
+    run_game(math_expression_and_result, GAME_INSTRUCTIONS["prime"])

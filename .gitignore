@@ -1,7 +1,8 @@
-.venv
-.DS_Store
-brain_games/__pycache__
-brain_games/scripts/__pycache__
+*.egg-info
+__pycache__
 dist/
-brain_games/games/__pycache__
-.idea
+*.pyc
+.venv/
+.coverage
+coverage.xml
+.pytest_cache/
