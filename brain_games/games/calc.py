@@ -9,8 +9,7 @@ def generate_number():
 
 
 def operators_generate():
-    first_num = generate_number()
-    last_num = generate_number()
+    first_num,last_num = generate_number(), generate_number(),
 
     operators = {'+': operator.add,
                  '-': operator.sub,

@@ -9,9 +9,7 @@ def generate_number_gcd():
 
 
 def math_expression_and_result():
-    first_num = generate_number_gcd()
-    last_num = generate_number_gcd()
-
+    first_num, last_num = generate_number_gcd(), generate_number_gcd()
     correct_answer = str(gcd(first_num, last_num))
     nums = f'{first_num} {last_num}'
 
