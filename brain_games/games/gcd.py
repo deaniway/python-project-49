@@ -1,15 +1,11 @@
+from brain_games.random_utilits import generate_number
 from math import gcd
-from random import randrange
 from brain_games.engine import run_game
 from brain_games.game_constants import GAME_INSTRUCTIONS
 
 
-def generate_number_gcd():
-    return randrange(10)
-
-
-def math_expression_and_result():
-    first_num, last_num = generate_number_gcd(), generate_number_gcd()
+def calculate_expression_and_get_result():
+    first_num, last_num = generate_number(), generate_number()
     correct_answer = str(gcd(first_num, last_num))
     nums = f'{first_num} {last_num}'
 
@@ -17,4 +13,4 @@ def math_expression_and_result():
 
 
 def run_gcd_game():
-    run_game(math_expression_and_result, GAME_INSTRUCTIONS["gcd"])
+    run_game(calculate_expression_and_get_result, GAME_INSTRUCTIONS["gcd"])

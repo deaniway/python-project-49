@@ -8,10 +8,4 @@ GAME_INSTRUCTIONS = {
 
 }
 
-MAX_ROUND_GAME = 3
-
-ERROR_MESSAGE = (
-    "'{user_answer}' is wrong answer ;(. "
-    "Correct answer was '{correct_answer}'.\n"
-    "Let's try again, {user_name}!"
-)
+MAX_ROUND = 3
