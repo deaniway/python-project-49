@@ -11,7 +11,7 @@ def operators_generate():
         '+': operator.add,
         '-': operator.sub,
         '*': operator.mul,
-        '/': operator.truediv
+
     }
     action = random.choice(list(operators.keys()))
     selected_operator = operators[action]
