@@ -6,4 +6,4 @@ def generate_random_number():
 
 
 def generate_number():
-    return random.randrange(50)
+    return random.randrange(10)
