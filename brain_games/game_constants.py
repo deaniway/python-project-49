@@ -9,3 +9,6 @@ GAME_INSTRUCTIONS = {
 }
 
 MAX_ROUND = 3
+
+
+EXPRESSION_ACTIONS = ['+', '-', '*']

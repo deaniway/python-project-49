@@ -3,7 +3,7 @@ from brain_games.engine import run_game
 from brain_games.game_constants import GAME_INSTRUCTIONS
 
 
-def generate_nums_and_correct_answer():
+def generate_number_and_correct_answer():
 
     num = random.randrange(2, 50)
     correct_answer = 'yes' if is_prime(num) else 'no'
@@ -22,4 +22,4 @@ def is_prime(nums):
 
 
 def run_prime_game():
-    run_game(generate_nums_and_correct_answer, GAME_INSTRUCTIONS["prime"])
+    run_game(generate_number_and_correct_answer, GAME_INSTRUCTIONS["prime"])
