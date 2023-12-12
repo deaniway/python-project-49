@@ -1,10 +1,12 @@
 import prompt
-from brain_games.game_constants import MAX_ROUND
+from brain_games.constants import MAX_ROUND
 
 
 def run_game(get_question_and_answer, instruction):
-    user_name = prompt.string('Welcome to the Brain Games!\n'
-                              'May I have your name? ')
+    user_name = prompt.string(
+        'Welcome to the Brain Games!\n''May I have your name? '
+    )
+
     print(f"Hello, {user_name}\n{instruction}")
 
     for _ in range(MAX_ROUND):
