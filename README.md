@@ -41,13 +41,13 @@ If you lose, you can try again.
 
 ##### Now your make to play this games.
 
-|       Command       |                      Description                       |
-|:-------------------:|:------------------------------------------------------:|
-|    `brain-even`     | You need to determine whether a number is even or not. |
-|    ` brain-calc`    |             You need to solve an example.              |
-|    ` brain-gcd`     |      You need to determine the greatest divisor.       |
-| `brain-progression` |       You need to continue arithmetic progress.        |
-|    `brain-prime`    |         You need to determine a prime number.          |
+|  №   |       Command       |                      Description                       |
+|:----:|:-------------------:|:------------------------------------------------------:|
+|  1   |    `brain-even`     | You need to determine whether a number is even or not. |
+|  2   |    ` brain-calc`    |             You need to solve an example.              |
+|  3   |    ` brain-gcd`     |      You need to determine the greatest divisor.       |
+|  4   | `brain-progression` |       You need to continue arithmetic progress.        |
+|  5   |    `brain-prime`    |         You need to determine a prime number.          |
 
 
 ### How it's work
