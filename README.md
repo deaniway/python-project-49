@@ -31,13 +31,13 @@ If you lose, you can try again.
 
 ##### For developers
 
-|            Command          | 
-|:---------------------------:| 
-|    ` make brain-even`       |
-|    ` make brain-calc`       |
-|    ` make brain-gcd`        |
-|    `make brain-progression` |
-|    `make brain-prime`       |      
+|  №   |            Command          | 
+|:----:|:---------------------------:| 
+|  1   |    ` make brain-even`       |
+|  2   |    ` make brain-calc`       |
+|  3   |    ` make brain-gcd`        |
+|  4   |    `make brain-progression` |
+|  5   |    `make brain-prime`       |      
 
 ##### Now your make to play this games.
 
