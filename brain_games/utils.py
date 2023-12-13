@@ -2,7 +2,7 @@ import random
 
 
 def generate_random_number():
-    return random.randint(1, 10)
+    return random.randint(2, 20)
 
 
 def generate_number(num):
