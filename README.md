@@ -29,7 +29,15 @@ If you lose, you can try again.
 
 *P.S.* *You must have [Poetry](https://python-poetry.org) installed*
 
+##### For developers
 
+|            Command          | 
+|:---------------------------:| 
+|    ` make brain-even`       |
+|    ` make brain-calc`       |
+|    ` make brain-gcd`        |
+|    `make brain-progression` |
+|    `make brain-prime`       |      
 
 ##### Now your make to play this games.
 
