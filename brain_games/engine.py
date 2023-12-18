@@ -7,7 +7,8 @@ def run_game(get_question_and_answer, instruction):
         'Welcome to the Brain Games!\n''May I have your name? '
     )
 
-    print(f"Hello, {user_name}\n{instruction}")
+    print(f"Hello, {user_name}\n"
+          f"{instruction}")
 
     for _ in range(MAX_ROUND):
         question, correct_answer = get_question_and_answer()

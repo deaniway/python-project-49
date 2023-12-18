@@ -1,15 +1,15 @@
-from brain_games.utils import generate_number
-from math import gcd
+from brain_games.utils import generate_rand_num
+import math
 from brain_games.engine import run_game
 from brain_games.constants import GAME_INSTRUCTIONS
 
 
 def get_gcd(first_num, second_num):
-    return gcd(first_num, second_num)
+    return math.gcd(first_num, second_num)
 
 
 def get_number_pair_and_gcd():
-    first_num, second_num = generate_number(10), generate_number(10)
+    first_num, second_num = generate_rand_num(10), generate_rand_num(10)
     gcd = str(get_gcd(first_num, second_num))
     nums = f'{first_num} {second_num}'
 

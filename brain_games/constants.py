@@ -12,4 +12,4 @@ MAX_ROUND = 3
 
 PROGRESSION_LENGTH = 10
 
-EXPRESSION_ACTIONS = ['+', '-', '*']
+MATH_SIGNS = ['+', '-', '*']
