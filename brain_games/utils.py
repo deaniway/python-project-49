@@ -1,5 +1,5 @@
 import random
 
 
-def generate_rand_num(start: int = 2, end: int = 20) -> int:
+def generate_rand_num(start=2, end=20):
     return random.randint(start, end)
