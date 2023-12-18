@@ -11,7 +11,7 @@ def calculate_expression_and_result():
     start_num, step = generate_rand_num(), generate_rand_num()
     progression = generate_progression(start_num, step, PROGRESSION_LENGTH)
 
-    index_to_replace = generate_rand_num(0, PROGRESSION_LENGTH)
+    index_to_replace = generate_rand_num(0, PROGRESSION_LENGTH - 1)
     correct_answer = progression[index_to_replace]
     progression[index_to_replace] = '..'
 
