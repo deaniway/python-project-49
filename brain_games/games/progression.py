@@ -7,7 +7,8 @@ def generate_progression(start, step, length):
     return list(range(start, start + step * length, step))
 
 
-def calculate_expression_and_result():
+def generate_progression_question():
+
     start_num, step = generate_rand_num(), generate_rand_num()
     progression = generate_progression(start_num, step, PROGRESSION_LENGTH)
 
@@ -20,4 +21,4 @@ def calculate_expression_and_result():
 
 
 def run_progression_game():
-    run_game(calculate_expression_and_result, GAME_INSTRUCTIONS["progression"])
+    run_game(generate_progression_question, GAME_INSTRUCTIONS["progression"])
