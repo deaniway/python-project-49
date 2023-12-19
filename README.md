@@ -48,9 +48,7 @@ If you lose, you can try again.
 |  4   | `make brain-progression` |
 |  5   |    `make brain-prime`    |      
 
-To run the utility in development mode, run the command: ` make <name game>`
 
-To install the package, run the command: ` make package-install`
 
 ### Contributing
 
@@ -69,6 +67,9 @@ How can I help develop a project? Submit a pull request :)
 
 
 # How it's work
+To install the package, run the command: ` make package-install`
+
+To run the utility in development mode, run the command: ` make <name game>`
 
 ### Brain-even games
 [![asciicast](https://asciinema.org/a/tvkNIpQs8m5Sj1FM8ijDpeqtY.svg)](https://asciinema.org/a/tvkNIpQs8m5Sj1FM8ijDpeqtY)
