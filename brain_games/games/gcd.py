@@ -10,10 +10,10 @@ def get_gcd(first_num, second_num):
 
 def get_number_pair_and_gcd():
     first_num, second_num = generate_rand_num(10), generate_rand_num(10)
-    gcd = str(get_gcd(first_num, second_num))
+    gcd = get_gcd(first_num, second_num)
     nums = f'{first_num} {second_num}'
 
-    return nums, gcd
+    return nums, str(gcd)
 
 
 def run_gcd_game():

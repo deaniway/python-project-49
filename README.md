@@ -68,17 +68,18 @@ How can I help develop a project? Submit a pull request :)
 |  5   |    ` brain-prime`    |         You need to determine a prime number.          |
 
 
-### How it's work
+# How it's work
 
-##### [Brain-even games](https://asciinema.org/a/M9esqBQaazplJ9GWvvjedD0rI)
+### Brain-even games
+[![asciicast](https://asciinema.org/a/tvkNIpQs8m5Sj1FM8ijDpeqtY.svg)](https://asciinema.org/a/tvkNIpQs8m5Sj1FM8ijDpeqtY)
+### Brain-gcd games
+[![asciicast](https://asciinema.org/a/twcRRtucxHyIzgDcNzkDkKgVI.svg)](https://asciinema.org/a/twcRRtucxHyIzgDcNzkDkKgVI)
 
-##### [Brain-calc games](https://asciinema.org/a/njfOVVEbiJ4mpIQ51Ix96xbB8)
+### Brain-progression games
+[![asciicast](https://asciinema.org/a/nwUWusfyt8ct4iEioXRHDJOf0.svg)](https://asciinema.org/a/nwUWusfyt8ct4iEioXRHDJOf0)
 
-##### [Brain-gcd games](https://asciinema.org/a/twcRRtucxHyIzgDcNzkDkKgVI)
-
-##### [Brain-progression games](https://asciinema.org/a/nwUWusfyt8ct4iEioXRHDJOf0)
-
-##### [Brain-prime games](https://asciinema.org/a/dwnAKtBQNNFhAwJs9ZcGlVJQd)
+### Brain-prime games
+https://asciinema.org/a/dwnAKtBQNNFhAwJs9ZcGlVJQd
 
 ## In the plans
 - [x] Submit README

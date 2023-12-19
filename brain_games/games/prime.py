@@ -3,22 +3,20 @@ from brain_games.engine import run_game
 from brain_games.constants import GAME_INSTRUCTIONS
 
 
-def is_prime(nums):
-    con = 0
-    for i in range(2, nums // 2 + 1):
-        if nums % i == 0:
-            con += 1
-    if con <= 0:
-        return True
-    else:
+def is_prime(num):
+    if num <= 1:
         return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
 
 
 def get_number_and_prime_answer():
 
     num = generate_rand_num()
-    correct_answer = 'yes' if is_prime(num) else 'no'
-    return num, correct_answer
+    answer = 'yes' if is_prime(num) else 'no'
+    return num, answer
 
 
 def run_prime_game():

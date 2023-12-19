@@ -7,8 +7,8 @@ from brain_games.constants import GAME_INSTRUCTIONS, MATH_SIGNS
 def get_math_expression_and_result():
     first_num, second_num = generate_rand_num(10), generate_rand_num(10)
     action = random.choice(MATH_SIGNS)
-    result = eval(f'{first_num} {action} {second_num}')
     expression = f'{first_num} {action} {second_num}'
+    result = eval(expression)
     return expression, str(result)
 
 
