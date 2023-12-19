@@ -79,7 +79,7 @@ How can I help develop a project? Submit a pull request :)
 [![asciicast](https://asciinema.org/a/nwUWusfyt8ct4iEioXRHDJOf0.svg)](https://asciinema.org/a/nwUWusfyt8ct4iEioXRHDJOf0)
 
 ### Brain-prime games
-https://asciinema.org/a/dwnAKtBQNNFhAwJs9ZcGlVJQd
+[![asciicast](https://asciinema.org/a/dwnAKtBQNNFhAwJs9ZcGlVJQd.svg)](https://asciinema.org/a/dwnAKtBQNNFhAwJs9ZcGlVJQd)
 
 ## In the plans
 - [x] Submit README
